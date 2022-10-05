@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "39db9f99-1dc4-43dd-8157-39fbed81f6ba",
+		"name": "Se Liga Maré",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23717116"
+	},
+	"item": [
+		{
+			"name": "USERS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://seuprojeto-production.up.railway.app/api/users",
+					"protocol": "https",
+					"host": [
+						"seuprojeto-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "USERS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alex Botelho Original\",\r\n    \"age\": 40,\r\n    \"working\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://seuprojeto-production.up.railway.app/api/users",
+					"protocol": "https",
+					"host": [
+						"seuprojeto-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "USERS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://seuprojeto-production.up.railway.app/api/user/8bd48384-39b6-444b-8663-f95f5a720a36",
+					"protocol": "https",
+					"host": [
+						"seuprojeto-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"user",
+						"8bd48384-39b6-444b-8663-f95f5a720a36"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "USERS",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alex Botelho Modificado\",\r\n    \"age\": 1000,\r\n    \"working\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://seuprojeto-production.up.railway.app/api/user/8bd48384-39b6-444b-8663-f95f5a720a36",
+					"protocol": "https",
+					"host": [
+						"seuprojeto-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"user",
+						"8bd48384-39b6-444b-8663-f95f5a720a36"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "USERS",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://seuprojeto-production.up.railway.app/api/user/8bd48384-39b6-444b-8663-f95f5a720a36",
+					"protocol": "https",
+					"host": [
+						"seuprojeto-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"user",
+						"8bd48384-39b6-444b-8663-f95f5a720a36"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
