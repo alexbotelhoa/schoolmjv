@@ -15,7 +15,7 @@ export class UpdateUser {
   async execute(request: UpdateUserRequest) {
     const { id, name, age, working } = request
 
-    if (!id || !name || !age || !working) {
+    if (!id || !name || !age) {
       throw new Error('All fields is required')
     }
 

@@ -55,7 +55,7 @@ export function UserController() {
     const { id } = req.params
     const { name, age, working } = req.body
 
-    if (!id || !name || !age || !working) {
+    if (!id || !name || !age) {
       return res.status(400).json({ message: 'Request error' })
     }
 
