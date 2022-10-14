@@ -2,7 +2,7 @@ School MJV 2022 - BACKEND
 
 Passo-a-Passo
 
-01 - Criar uma conta no Github
+01 - Criar uma conta no Github<br>
 02 - Clonar o projeto https://github.com/alexbotelhoa/schoolmjv
 03 - Criar uma conta na Railway
 04 - Criar um container MySQL na Railway
